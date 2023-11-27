@@ -1,0 +1,238 @@
+body{
+    margin: 0 auto;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #fbebeb;
+}
+header{
+    width: 100%;
+    min-height: 300px;
+    background-image: url("https://catherineasquithgallery.com/uploads/posts/2021-02/1614409201_49-p-krasivii-temnii-fon-dlya-prezentatsii-62.jpg");
+    background-repeat: no-repeat;
+    color: whitesmoke;
+}
+header .d{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.o{
+    margin-left: 150px;
+    display: block;
+    padding: 12px;
+    font-size: 25px;
+    float: left;
+}
+.o span{
+    color: aqua;
+}
+nav{ 
+    display: block;
+    padding: 20px;
+    font-size: 15px;
+    float: right;
+    margin-right: 25px;
+}
+.a{
+   text-decoration: none;
+   padding: 15px;
+   color: whitesmoke; 
+}
+.d1{
+    padding: 100px;
+    margin-left: 100px;
+}
+.d1 h1{
+    font-size: 65px;
+    width: 600px;
+}
+.d1 p{
+    color: lightgray;
+}
+.d1 button{
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    color: whitesmoke;
+    border-color: lightgray;
+}
+.d1 button:hover {
+    background-color: whitesmoke;
+    color: #000000;
+}
+.rev1{
+    padding: 30px;
+    width: 1000px;
+	height:400px;
+	margin: 0 auto;
+}
+.dm1{ 
+    display:inline-block;
+    width:32%;
+    height: 187px;
+    background:#ffffff;
+    margin:0.5%;
+}
+.title
+{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+.txt
+{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: gray;
+}
+.rev2{    
+    background-color:#ffffff;
+}
+.rev2 h1{
+    font-size: 35px;
+    text-align: center;
+}
+.rev2 p{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.rev2 .p, .rev2 span{
+    color: gray;
+    margin-left: auto;
+    margin-right: auto;
+}
+.rev3{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.dm3{
+    padding: 30px;
+    float: left;
+    height: 300px;
+    width: 300px;
+    background-color: #ffffff;
+    border: 2px solid lightgray; 
+}
+.dm3 p{
+    color: gray;
+}
+.dm3 ul{
+    color: gray;
+    list-style-type:none;
+}
+.l::before {
+    content: "-"; 
+    color: aqua;
+    display: inline-block; 
+    font-size: 25px;
+    width: 1rem;
+    margin-left: -1rem; 
+}
+.sdm3{
+    color: gray;
+}
+.dm3 button{
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    color: black;
+    border-color: lightgray;
+}
+.dm3 button:hover {
+    background-color: blue;
+    color: #000000;
+}
+.rev4{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.i4{
+    float: right;
+}
+.title4
+{
+    font-size: 24px;
+    text-align: left;
+}
+.txt4
+{
+    font-size: 12px;
+    width: 500px;
+    color: gray;
+}
+.foot{
+    display: flex;
+    padding: 25px;
+    width: 100%;
+    background: url("https://catherineasquithgallery.com/uploads/posts/2021-02/1614447902_126-p-temnii-fon-dlya-fotoshopa-191.jpg");
+    background-repeat: no-repeat;
+    color: whitesmoke;
+}
+.foot ul{
+    list-style-type:none;
+}
+.foot ul li{
+    margin: 30px 0;
+}
+.af{
+    text-decoration: none;
+    padding: 35px;
+    color: whitesmoke; 
+ }
+.df{
+    float: right;
+    text-align: left;
+}
+.foot_title{
+    font-size: 30px;
+}
+.foot_form{
+    width: 500px;
+}
+.foot_form input[type="text"],
+.foot_form input[type="email"],
+.foot_form textarea
+{
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-sizing: border-box;
+    height: 40px;
+    margin: 0 0 20px 0;
+    outline: none;
+    padding: 10px;
+    text-transform: capitalize;
+    width: 100%;
+}
+.foot_form textarea
+{
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 170px;
+    outline: none;
+    width: 500px;
+}
+.foot_form input[type="submit"]
+{
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    height: 40px;
+    line-height: 24px;
+    outline: none;
+    text-align: center;
+    text-transform: uppercase;
+    width: 140px;
+}
